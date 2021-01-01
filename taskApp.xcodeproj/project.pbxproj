@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		F97737B3259EA654002101C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97737B2259EA654002101C2 /* Assets.xcassets */; };
 		F97737B6259EA654002101C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97737B4259EA654002101C2 /* LaunchScreen.storyboard */; };
 		F97737BE259EB456002101C2 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97737BD259EB456002101C2 /* InputViewController.swift */; };
+		F97737C0259ED152002101C2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97737BF259ED152002101C2 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F97737B5259EA654002101C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F97737B7259EA654002101C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F97737BD259EB456002101C2 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		F97737BF259ED152002101C2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				E2438E187DF0D78D579E6870 /* Pods-taskApp.debug.xcconfig */,
 				F20024778A00663ED47FD482 /* Pods-taskApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				F97737B2259EA654002101C2 /* Assets.xcassets */,
 				F97737B4259EA654002101C2 /* LaunchScreen.storyboard */,
 				F97737B7259EA654002101C2 /* Info.plist */,
+				F97737BF259ED152002101C2 /* Task.swift */,
 			);
 			path = taskApp;
 			sourceTree = "<group>";
@@ -212,6 +214,7 @@
 			files = (
 				F97737AE259EA652002101C2 /* ViewController.swift in Sources */,
 				F97737AA259EA652002101C2 /* AppDelegate.swift in Sources */,
+				F97737C0259ED152002101C2 /* Task.swift in Sources */,
 				F97737AC259EA652002101C2 /* SceneDelegate.swift in Sources */,
 				F97737BE259EB456002101C2 /* InputViewController.swift in Sources */,
 			);
@@ -365,7 +368,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tomoya.seki.taskApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.tomoya.seki.Lesson4-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -384,7 +387,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tomoya.seki.taskApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.tomoya.seki.Lesson4-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
